@@ -1,11 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+}
 .movie-details-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     background-color: #141414;
     min-height: 100vh;
-    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .movie-hero {
@@ -173,7 +179,11 @@
 
 @media (max-width: 768px) {
     .movie-details-container {
-        padding: 15px;
+        max-width: 100vw;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
 
     .movie-hero {
@@ -182,7 +192,8 @@
         text-align: center;
         padding: 30px 15px;
         min-height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 0;
+        border-radius: 0;
     }
 
     .movie-poster-container {
@@ -211,7 +222,8 @@
 
     .download-section {
         padding: 25px 15px;
-        margin-bottom: 30px;
+        margin-bottom: 0;
+        border-radius: 0;
     }
 
     .download-button {
