@@ -7,11 +7,22 @@ html, body {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -23,20 +34,38 @@ html, body {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -120,6 +149,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -222,11 +270,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -238,20 +297,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -335,6 +412,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -445,11 +541,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -461,20 +568,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -558,6 +683,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -669,11 +813,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -685,20 +840,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -782,6 +955,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -885,11 +1077,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -901,20 +1104,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -998,6 +1219,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -1102,11 +1342,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -1118,20 +1369,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -1215,6 +1484,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -1316,11 +1604,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -1332,20 +1631,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -1429,6 +1746,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -1533,11 +1869,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -1549,20 +1896,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -1646,6 +2011,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -1749,11 +2133,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -1765,20 +2160,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -1862,6 +2275,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -1965,11 +2397,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -1981,20 +2424,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -2078,6 +2539,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -2181,11 +2661,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -2197,20 +2688,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -2294,6 +2803,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -2405,11 +2933,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -2421,20 +2960,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -2518,6 +3075,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -2621,11 +3197,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -2637,20 +3224,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -2734,6 +3339,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -2837,11 +3461,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -2853,20 +3488,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -2950,6 +3603,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -3054,11 +3726,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -3070,20 +3753,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -3167,6 +3868,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -3270,11 +3990,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -3286,20 +4017,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -3383,6 +4132,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -3488,11 +4256,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -3504,20 +4283,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -3601,6 +4398,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -3703,11 +4519,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -3718,20 +4545,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -3815,6 +4660,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -3912,11 +4776,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -3928,20 +4803,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -4025,6 +4918,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -4123,11 +5035,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -4139,20 +5062,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -4236,6 +5177,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -4340,29 +5300,34 @@ header h1 {
     }
 
     .download-section {
-        padding: 15px;
-        margin: 10px;
-        border-radius: 10px;
+        padding: 12px;
+        margin: 8px;
+        border-radius: 8px;
     }
 
     .download-section h2 {
-        font-size: 1.2rem;
-        margin-bottom: 15px;
+        font-size: 1.1rem;
+        margin-bottom: 12px;
     }
 
     .download-button {
-        padding: 12px 18px;
-        font-size: 0.9rem;
+        padding: 10px 15px;
+        font-size: 0.85rem;
+        min-width: auto;
+        width: 100%;
     }
 
     .movie-search {
-        margin: 10px;
-        padding: 0 10px;
+        margin: 8px;
+        padding: 0 8px;
+        max-width: 90%;
     }
 
     .movie-search input {
-        padding: 10px;
-        font-size: 0.9rem;
+        padding: 8px;
+        font-size: 0.85rem;
+        width: 100%;
+        max-width: 300px;
     }
 
     .back-button {
@@ -4374,11 +5339,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -4390,20 +5366,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -4487,6 +5481,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -4594,11 +5607,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -4610,20 +5634,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -4707,6 +5749,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -4808,11 +5869,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -4824,20 +5896,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -4921,6 +6011,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -5022,11 +6131,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -5038,20 +6158,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -5135,6 +6273,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -5238,11 +6395,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -5254,20 +6422,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -5351,6 +6537,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -5453,11 +6658,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -5469,20 +6685,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -5566,6 +6800,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -5668,11 +6921,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -5684,20 +6948,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -5781,6 +7063,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -5884,11 +7185,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -5900,20 +7212,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -5997,6 +7327,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -6099,11 +7448,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -6115,20 +7475,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -6212,6 +7590,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -6314,11 +7711,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -6330,20 +7738,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -6427,6 +7853,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -6530,11 +7975,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -6546,20 +8002,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -6643,6 +8117,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -6745,11 +8238,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -6761,20 +8265,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -6858,6 +8380,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {
@@ -6956,11 +8497,22 @@ header h1 {
 .download-section {
     background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
     border-radius: 15px;
-    padding: 30px;
-    margin: 20px auto;
+    padding: 25px 15px;
+    margin: 15px 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     max-width: 800px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .download-section {
+        padding: 15px 10px;
+        margin: 10px 5px;
+    }
+    .download-section h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
 }
 
 .download-section h2 {
@@ -6972,20 +8524,38 @@ header h1 {
 .download-buttons {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 14px;
 }
 
 .download-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 24px;
+    padding: 14px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    gap: 10px;
+    gap: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+    .download-button {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    .download-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .watchlist-button {
+        padding: 12px 20px;
+        font-size: 13px;
+    }
 }
 
 .download-button.primary {
@@ -7069,6 +8639,25 @@ header h1 {
     font-size: 1.8rem;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.provider-footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 12px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+.provider-footer a {
+    color: #e50914;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.provider-footer a:hover {
+    color: #ff0a16;
 }
 
 .site-title:hover {

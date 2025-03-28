@@ -102,28 +102,33 @@ async function loadMovieDetails() {
 }
 
 // Add to watchlist functionality
-addToWatchlist.addEventListener('click', function() {
-    const { imdbId, year } = getUrlParams();
-    const movieData = {
-        id: imdbId,
-        year: year,
-        title: movieTitle.textContent,
-        poster: moviePoster.src
-    };
+document.addEventListener('DOMContentLoaded', function() {
+    const addToWatchlist = document.getElementById('addToWatchlist');
+    if (addToWatchlist) {
+        addToWatchlist.addEventListener('click', function() {
+            const { imdbId, year } = getUrlParams();
+            const movieData = {
+                id: imdbId,
+                year: year,
+                title: movieTitle.textContent,
+                poster: moviePoster.src
+            };
 
-    let watchlist = JSON.parse(localStorage.getItem('watchlist') || '[]');
-    const exists = watchlist.some(movie => movie.id === imdbId);
+            let watchlist = JSON.parse(localStorage.getItem('watchlist') || '[]');
+            const exists = watchlist.some(movie => movie.id === imdbId);
 
-    if (!exists) {
-        watchlist.push(movieData);
-        localStorage.setItem('watchlist', JSON.stringify(watchlist));
-        this.textContent = '✓ Added to Watchlist';
-        this.style.backgroundColor = '#218838';
-    } else {
-        watchlist = watchlist.filter(movie => movie.id !== imdbId);
-        localStorage.setItem('watchlist', JSON.stringify(watchlist));
-        this.textContent = '+ Add to Watchlist';
-        this.style.backgroundColor = '#28a745';
+            if (!exists) {
+                watchlist.push(movieData);
+                localStorage.setItem('watchlist', JSON.stringify(watchlist));
+                this.textContent = '✓ Added to Watchlist';
+                this.style.backgroundColor = '#218838';
+            } else {
+                watchlist = watchlist.filter(movie => movie.id !== imdbId);
+                localStorage.setItem('watchlist', JSON.stringify(watchlist));
+                this.textContent = '+ Add to Watchlist';
+                this.style.backgroundColor = '#28a745';
+            }
+        });
     }
 });
 
