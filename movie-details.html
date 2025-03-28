@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="movie-details.css">
 </head>
 <body>
+    <div style="display: none;" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="download-icon" viewBox="0 0 24 24">
+                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" fill="currentColor"/>
+            </symbol>
+            <symbol id="plus-icon" viewBox="0 0 24 24">
+                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="currentColor"/>
+            </symbol>
+        </svg>
+    </div>
     <div class="movie-details-container">
+        <header>
+            <h1><a href="index.html" class="site-title">MiliMovies</a></h1>
+            <div class="movie-search">
+                <input type="text" placeholder="Search movies..." id="movieSearch">
+            </div>
+        </header>
         <div class="movie-hero">
             <div class="movie-backdrop"></div>
             <div class="movie-poster-container">
@@ -20,24 +36,44 @@
             </div>
         </div>
 
+        <div class="plot-section">
+            <div class="plot-skeleton">
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line"></div>
+                <div class="skeleton-line"></div>
+            </div>
+            <div class="plot-content" style="display: none;">
+                <h2>Plot</h2>
+                <p id="moviePlot"></p>
+            </div>
+        </div>
+
         <div class="download-section">
             <h2>Download Links</h2>
             <div class="download-buttons">
                 <a id="downloadLink1" href="#" class="download-button primary" target="_blank" rel="nofollow">
-                    <span class="download-icon">⭳</span>
+                    <span class="download-icon">
+                        <svg width="24" height="24"><use href="#download-icon"/></svg>
+                    </span>
                     Download Movie (Primary Link)
                 </a>
                 <a id="downloadLink2" href="#" class="download-button secondary" target="_blank" rel="nofollow">
-                    <span class="download-icon">⭳</span>
+                    <span class="download-icon">
+                        <svg width="24" height="24"><use href="#download-icon"/></svg>
+                    </span>
                     Download Movie (Mirror 1)
                 </a>
                 <a id="downloadLink3" href="#" class="download-button secondary" target="_blank" rel="nofollow">
-                    <span class="download-icon">⭳</span>
+                    <span class="download-icon">
+                        <svg width="24" height="24"><use href="#download-icon"/></svg>
+                    </span>
                     Download Movie (Mirror 2)
                 </a>
             </div>
             <button id="addToWatchlist" class="watchlist-button">
-                <span class="watchlist-icon">+</span>
+                <span class="watchlist-icon">
+                    <svg width="24" height="24"><use href="#plus-icon"/></svg>
+                </span>
                 Add to Watchlist
             </button>
         </div>
