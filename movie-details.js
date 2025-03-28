@@ -56,7 +56,7 @@ async function loadMovieDetails() {
         const plotResponse = await fetch(`${IMDB_API_URL}tt${imdbId}`);
         const plotData = await plotResponse.json();
 
-        // Update plot section
+        // Update plot section and additional content
         document.querySelector('.plot-skeleton').style.display = 'none';
         document.querySelector('.plot-content').style.display = 'block';
         
@@ -64,6 +64,34 @@ async function loadMovieDetails() {
             document.getElementById('moviePlot').textContent = plotData.plot.l;
         } else {
             document.getElementById('moviePlot').innerHTML = '<div class="no-plot">No plot available for this movie.</div>';
+        }
+
+        // Populate cast grid
+        const castGrid = document.getElementById('castGrid');
+        if (castGrid && plotData.cast) {
+            castGrid.innerHTML = '';
+            plotData.cast.forEach(actor => {
+                const castMember = document.createElement('div');
+                castMember.className = 'cast-member';
+                castMember.innerHTML = `
+                    <div class="cast-member-name">${actor}</div>
+                `;
+                castGrid.appendChild(castMember);
+            });
+        }
+
+        // Populate gallery grid
+        const galleryGrid = document.getElementById('galleryGrid');
+        if (galleryGrid && plotData.images) {
+            galleryGrid.innerHTML = '';
+            plotData.images.forEach(imageUrl => {
+                const galleryItem = document.createElement('div');
+                galleryItem.className = 'gallery-item';
+                galleryItem.innerHTML = `
+                    <img src="${imageUrl}" alt="Movie Image">
+                `;
+                galleryGrid.appendChild(galleryItem);
+            });
         }
 
         if (!movie) {
