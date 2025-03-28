@@ -172,26 +172,50 @@
 }
 
 @media (max-width: 768px) {
+    .movie-details-container {
+        padding: 15px;
+    }
+
     .movie-hero {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 20px;
+        padding: 30px 15px;
+        min-height: auto;
+        margin-bottom: 30px;
     }
 
     .movie-poster-container {
-        margin: 0 0 20px 0;
+        margin: 0 0 25px 0;
     }
 
     .movie-details-poster {
-        width: 200px;
+        width: 180px;
     }
 
     .movie-details-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    .movie-details-year {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+    }
+
+    .movie-details-cast {
+        font-size: 1rem;
+        line-height: 1.4;
     }
 
     .download-section {
-        padding: 20px;
+        padding: 25px 15px;
+        margin-bottom: 30px;
+    }
+
+    .download-button {
+        padding: 14px;
+        font-size: 1rem;
     }
 }

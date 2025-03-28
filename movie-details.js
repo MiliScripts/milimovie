@@ -50,10 +50,19 @@ async function loadMovieDetails() {
             document.querySelector('.movie-backdrop').style.backgroundImage = `url(${movie.i.imageUrl})`;
         }
 
-        // Update download links
-        downloadLink1.href = `https://tokyo.saymyname.website/Movies/${year}/${imdbId}`;
-        downloadLink2.href = `https://berlin.saymyname.website/Movies/${year}/${imdbId}`;
-        downloadLink3.href = `https://nairobi.saymyname.website/Movies/${year}/${imdbId}`;
+        // Update download links based on content type
+        if (movie.qid === 'tvSeries') {
+            const seriesName = movie.l;
+            const firstLetter = seriesName.charAt(0).toUpperCase();
+            const seriesUrl = `https://nairobi.saymyname.website/?dir=Series/${firstLetter}/${seriesName}`;
+            downloadLink1.href = seriesUrl;
+            downloadLink2.style.display = 'none';
+            downloadLink3.style.display = 'none';
+        } else {
+            downloadLink1.href = `https://tokyo.saymyname.website/Movies/${year}/${imdbId}`;
+            downloadLink2.href = `https://berlin.saymyname.website/Movies/${year}/${imdbId}`;
+            downloadLink3.href = `https://nairobi.saymyname.website/Movies/${year}/${imdbId}`;
+        }
 
     } catch (error) {
         console.error('Error loading movie details:', error);
