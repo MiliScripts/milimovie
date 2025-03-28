@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiliMovies - Movie Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MiliMovies</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for movies..." autocomplete="off">
+                <div class="loader" id="loader"></div>
+            </div>
+        </header>
+        <main>
+            <div class="movies-grid" id="moviesGrid"></div>
+            <div class="no-results" id="noResults">No movies found</div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

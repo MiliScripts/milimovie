@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="movie-details.css">
+</head>
+<body>
+    <div class="movie-details-container">
+        <div class="movie-hero">
+            <div class="movie-backdrop"></div>
+            <div class="movie-poster-container">
+                <img id="moviePoster" class="movie-details-poster" src="" alt="Movie Poster">
+            </div>
+            <div class="movie-info-hero">
+                <h1 id="movieTitle" class="movie-details-title"></h1>
+                <p id="movieYear" class="movie-details-year"></p>
+                <p id="movieCast" class="movie-details-cast"></p>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h2>Download Links</h2>
+            <div class="download-buttons">
+                <a id="downloadLink1" href="#" class="download-button primary" target="_blank" rel="nofollow">
+                    <span class="download-icon">⭳</span>
+                    Download Movie (Primary Link)
+                </a>
+                <a id="downloadLink2" href="#" class="download-button secondary" target="_blank" rel="nofollow">
+                    <span class="download-icon">⭳</span>
+                    Download Movie (Mirror 1)
+                </a>
+                <a id="downloadLink3" href="#" class="download-button secondary" target="_blank" rel="nofollow">
+                    <span class="download-icon">⭳</span>
+                    Download Movie (Mirror 2)
+                </a>
+            </div>
+            <button id="addToWatchlist" class="watchlist-button">
+                <span class="watchlist-icon">+</span>
+                Add to Watchlist
+            </button>
+        </div>
+    </div>
+    <script src="movie-details.js"></script>
+</body>
+</html>

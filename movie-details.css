@@ -1,0 +1,197 @@
+.movie-details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #141414;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.movie-hero {
+    position: relative;
+    min-height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+    padding: 60px 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, transparent 0%, rgba(20, 20, 20, 0.95) 100%);
+}
+
+.movie-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px) brightness(0.4);
+    z-index: 0;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.movie-poster-container {
+    position: relative;
+    z-index: 1;
+    margin-right: 30px;
+}
+
+.movie-details-poster {
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.movie-details-poster:hover {
+    transform: translateY(-5px);
+}
+
+.movie-info-hero {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    flex: 1;
+}
+
+.movie-details-title {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.movie-details-year {
+    font-size: 1.2rem;
+    color: #e50914;
+    margin: 0 0 10px 0;
+}
+
+.movie-details-cast {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin: 0;
+}
+
+.download-section {
+    background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
+    border-radius: 20px;
+    padding: 35px;
+    margin-bottom: 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.download-section h2 {
+    color: #fff;
+    margin: 0 0 20px 0;
+    font-size: 1.8rem;
+}
+
+.download-buttons {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.download-button:hover {
+    transform: translateY(-2px);
+}
+
+.download-button.primary {
+    background: linear-gradient(135deg, #e50914 0%, #b71c1c 100%);
+    box-shadow: 0 4px 15px rgba(229, 9, 20, 0.3);
+}
+
+.download-button.primary:hover {
+    background: linear-gradient(135deg, #ff0f1f 0%, #d32f2f 100%);
+    box-shadow: 0 6px 20px rgba(229, 9, 20, 0.4);
+    transform: translateY(-3px);
+}
+
+.download-button.secondary {
+    background: linear-gradient(135deg, #444 0%, #333 100%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.download-button.secondary:hover {
+    background: linear-gradient(135deg, #555 0%, #444 100%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.download-icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.watchlist-button {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+    letter-spacing: 0.3px;
+}
+
+.watchlist-button:hover {
+    background: linear-gradient(135deg, #2dbc4e 0%, #28a745 100%);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+    transform: translateY(-3px);
+}
+
+.watchlist-icon {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .movie-hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .movie-poster-container {
+        margin: 0 0 20px 0;
+    }
+
+    .movie-details-poster {
+        width: 200px;
+    }
+
+    .movie-details-title {
+        font-size: 2rem;
+    }
+
+    .download-section {
+        padding: 20px;
+    }
+}
